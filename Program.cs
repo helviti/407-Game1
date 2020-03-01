@@ -28,7 +28,7 @@ namespace Game_1 {
                 Console.WriteLine ("> Please note that for large numbers (like 10^6), the application may hang for a while depending on the hardware. Please be patient.");
                 y = Convert.ToInt32 (Console.ReadLine ());
                 if (y <= 0) {
-                    Console.WriteLine ("The number you have entered is not a positive integer. Press a key to try again.");
+                    Console.WriteLine ("> The number you have entered is not a positive integer. Press a key to try again.");
                     Console.ReadKey ();
                 }
 
